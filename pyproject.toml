@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runpack"
+version = "1.0"
+dependencies = [
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Exo Software", email = "mail@exo.pt"},
+]
+maintainers = [
+  {name = "Exo Software", email = "mail@exo.pt"},
+]
+description = "A multiversion runtime package for running Exo obfuscated scripts"
+keywords = ["exo", "ptplus", "pt+", "pt-plus", "localization"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
