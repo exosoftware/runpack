@@ -1,12 +1,18 @@
-CMakeLists.txt.user
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+# IDE files
+/.idea/
+
+# ikeys
+pyarmor_runtime_004652/.pyarmor.ikey
+.pyarmor.ikey
+
+# include .so files
+#!pyarmor_runtime_004652/
+!pyarmor_runtime_004652/py37/pyarmor_runtime.so
+!pyarmor_runtime_004652/py38/pyarmor_runtime.so
+!pyarmor_runtime_004652/py39/pyarmor_runtime.so
+!pyarmor_runtime_004652/py310/pyarmor_runtime.so
+!pyarmor_runtime_004652/py311/pyarmor_runtime.so
+!pyarmor_runtime_004652/py312/pyarmor_runtime.so
+!pyarmor_runtime_004652/py313/pyarmor_runtime.so
+!pyarmor_runtime_004652/py314/pyarmor_runtime.so
+!pyarmor_runtime_004652/__init__.py
